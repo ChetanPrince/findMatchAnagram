@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+body{
+    font-family: "Linden Hill", serif;
+   
+}
+#container{
+    width: 70%;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgba(147, 154, 23, 0.588);
+}
+input{
+    margin-bottom:20px;
+    width: 50%;
+    max-width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.836);
+    margin-right: 10px;
+}
+
+
+button{
+    border: 1px solid rgba(255, 57, 7, 0.778);
+    border-radius: 7px;;
+    background: linear-gradient(45deg, red, blue);
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+button:hover{
+    box-shadow: 3px 3px 10px rgb(0, 170, 255);
+    transition: 0.4s ease-in-out;
+    
+}
+button:active{
+    background: linear-gradient(45deg, blue, red);
+    background-clip: text;
+    color: transparent;
+    transform: translate(2px, 2px);
+    box-shadow: none;
+    transition: 0.1s ease-in-out;
+}
+
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    input, #search {
+        width: 70%; 
+    }
+}
+
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    input, #search {
+        width: 30%; 
+    }
+} 

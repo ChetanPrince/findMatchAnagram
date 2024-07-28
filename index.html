@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find & Match Anagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Linden+Hill:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Linden+Hill:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+    <h1>Anagram Word Check & Anagram Word Count Check!</h1>
+    <h4>Instructions</h4>
+    <p id="instruction">To check if the words match and are anagramatic then write two different words in both inputs. <br> If you want to check if you want to check the count of a word in another larger word then write first bigger word in first input and in other the shorter word respectively.
+    </p>
+
+        <input type="text" name="First Word" id="firstWord" pattern="[A-Za-z]+" placeholder="Enter First Word"/>
+        <input type="text" name="Second Word" id="secondWord" pattern="[A-Za-z]+" placeholder="Word To Match Or Find Count"/>
+        <button id="search"><span>Check</span></button>
+        <button id="checkCount">Anagram's Count</button>
+        <div id="output"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
